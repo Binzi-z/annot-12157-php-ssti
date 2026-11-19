@@ -1,0 +1,69 @@
+{
+ "vulns": [
+  {
+   "id": "v00",
+   "sink": "path_traversal",
+   "label": "路径穿越",
+   "file": "src/Handler00.php",
+   "line": 19,
+   "entry": "Handler00::handle"
+  },
+  {
+   "id": "v01",
+   "sink": "template_injection",
+   "label": "模板注入",
+   "file": "src/Handler01.php",
+   "line": 19,
+   "entry": "Handler01::handle"
+  },
+  {
+   "id": "v02",
+   "sink": "template_injection",
+   "label": "模板注入",
+   "file": "src/Handler03.php",
+   "line": 19,
+   "entry": "Handler03::handle"
+  },
+  {
+   "id": "v03",
+   "sink": "path_traversal",
+   "label": "路径穿越",
+   "file": "src/Handler04.php",
+   "line": 19,
+   "entry": "Handler04::handle"
+  },
+  {
+   "id": "v04",
+   "sink": "path_traversal",
+   "label": "路径穿越",
+   "file": "src/Handler07.php",
+   "line": 19,
+   "entry": "Handler07::handle"
+  },
+  {
+   "id": "v05",
+   "sink": "template_injection",
+   "label": "模板注入",
+   "file": "src/Handler08.php",
+   "line": 19,
+   "entry": "Handler08::handle"
+  },
+  {
+   "id": "v06",
+   "sink": "path_traversal",
+   "label": "路径穿越",
+   "file": "src/Handler10.php",
+   "line": 19,
+   "entry": "Handler10::handle"
+  },
+  {
+   "id": "v07",
+   "sink": "template_injection",
+   "label": "模板注入",
+   "file": "src/Handler11.php",
+   "line": 19,
+   "entry": "Handler11::handle"
+  }
+ ],
+ "total": 8
+}
